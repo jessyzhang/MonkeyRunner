@@ -12,7 +12,7 @@ MonkeyRunner测试/发送短信
 <p>下载后可以将其放在 android sdk 子文件夹/tool中， 当然也可以按类别将其放在/tool/lib中， 到时运行的时候知名路径就可以了</p>
 <p>接着运行monkeyrunner 命令来获取点的坐标</p>
 <p>monkeyrunner monkey_recorder.py</p>
-<p>运行成功后手机屏幕会通过 recorder镜像到桌面， 分辨点击 收件人， 文本框和发送这三个点， 获取这三个点的坐标， 将其代入到python程序的代码中作为当前连接的设备的三个点的坐标。</p>
+<p>运行成功后手机屏幕会通过 recorder镜像到桌面， 分别点击 收件人， 文本框和发送这三个点， 获取这三个点的坐标， 将其代入到python程序的代码中作为当前连接的设备的三个点的坐标。</p>
 
 <p>python脚本完成后可以同样放到tool中， 通过monkeyrunner命令来运行</p>
 <p>monkeyrunner  SendMessage.py</p>
