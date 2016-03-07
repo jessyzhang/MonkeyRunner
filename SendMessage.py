@@ -1,4 +1,5 @@
 # Coding=<utf-8>
+
 import sys
 from com.android.monkeyrunner import MonkeyRunner as mr
 from com.android.monkeyrunner import MonkeyDevice as md
